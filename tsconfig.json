@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "noImplicitAny": false,
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["./src/**/*"]
+}
