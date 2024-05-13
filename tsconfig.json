@@ -1,12 +1,24 @@
 {
   "compilerOptions": {
+    "rootDir": "./",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "target": "ES6",
-    "outDir": "./dist",
-    "moduleResolution": "Node",
-    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitOverride": true,
+    "preserveSymlinks": true,
     "noImplicitAny": false,
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "verbatimModuleSyntax": true,
+    "experimentalDecorators": true,
+    "noEmit": true
   },
   "include": ["./src/**/*"]
 }
